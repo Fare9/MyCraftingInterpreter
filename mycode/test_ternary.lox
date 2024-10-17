@@ -1,0 +1,3 @@
+// Example to test how a ternary operator is printed
+
+1 != 2 ? 5 : 10;

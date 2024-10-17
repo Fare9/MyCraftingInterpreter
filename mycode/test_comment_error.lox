@@ -1,0 +1,24 @@
+// this is a variable example
+var test = true;
+/*
+* This is a long
+* comment, just to
+* test, the new command
+* works well
+* here it should break
+* because we do not finish
+* the comment
+
+var int_value = 5;
+
+print int_value;
+
+// A while loop
+while (int_value > 0) {
+    print int_value;
+    int_value = int_value - 1;
+}
+
+// String values
+var string_value = "This is a string";
+print string_value;

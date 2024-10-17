@@ -1,0 +1,8 @@
+// Here we will have a few mathematical expressions
+// for testing the Parser for the AST
+// No assignments or anything like that, just expressions
+
+1 + 3;
+5 * 8;
+ojete + 10;
+1 + 3 - 2 / 1;

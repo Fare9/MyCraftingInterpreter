@@ -1,0 +1,32 @@
+
+class Breakfast {
+    serve(who) {
+        print "This is your breakfast sir " + who + " enjoy it";
+    }
+}
+
+class PreferredBreakfast < Breakfast {
+    init(food, drink) {
+        this.food = food;
+        this.drink = drink;
+    }
+
+    serve(who) {
+        print "You ordered " + this.food + " for eating, and " + this.drink + " for drinking";
+        super.serve(who);
+    }
+
+    runExternalFunction(externalFunction) {
+        externalFunction();
+    }
+}
+
+
+var preferredBreakfast = PreferredBreakfast("toasts", "juice");
+preferredBreakfast.serve("John");
+
+fun externalFunction() {
+    print "This is a first-class external function";
+}
+
+preferredBreakfast.runExternalFunction(externalFunction);
